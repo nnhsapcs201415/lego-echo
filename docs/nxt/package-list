@@ -17,6 +17,9 @@ javax.xml.stream.events
 lejos.addon.gps
 lejos.addon.keyboard
 lejos.geom
+lejos.internal.charset
+lejos.internal.io
+lejos.internal.xml.stream
 lejos.nxt
 lejos.nxt.addon
 lejos.nxt.addon.tetrix
