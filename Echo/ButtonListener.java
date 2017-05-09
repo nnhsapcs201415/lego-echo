@@ -2,9 +2,14 @@ import lejos.nxt.Button;
 import lejos.nxt.ButtonListener;
 import lejos.nxt.LCD;
 
-public class ListenForButtons {
-  public static void main(String[] args) throws Exception {
-    Button.ENTER.addButtonListener(new ButtonListener() {
+public class ButtonListener implements ButtonListener {
+
+      private String name; 
+      
+      public ButtonListener(String name) {
+          this.name = name;
+      }
+      
       public void buttonPressed(Button b) {
         LCD.drawString("ENTER pressed", 0, 0);
       }
@@ -12,8 +17,10 @@ public class ListenForButtons {
       public void buttonReleased(Button b) {
         LCD.clear();
       }
-    });
+      
+      public String getName() {
+          return this.name;
+      }
 
-    Button.ESCAPE.waitForPressAndRelease();
   }
 }
