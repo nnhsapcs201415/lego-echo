@@ -2,11 +2,11 @@ import lejos.nxt.Button;
 import lejos.nxt.ButtonListener;
 import lejos.nxt.LCD;
 
-public class ButtonListener implements ButtonListener {
+public class BtnListener implements ButtonListener {
 
       private String name; 
       
-      public ButtonListener(String name) {
+      public BtnListener(String name) {
           this.name = name;
       }
       
@@ -23,4 +23,3 @@ public class ButtonListener implements ButtonListener {
       }
 
   }
-}
