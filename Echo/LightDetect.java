@@ -6,5 +6,7 @@ public class LightDetect implements SensorPortListener {
         return Sensors.LGHT.getLightValue();
     }
     
-
+    public void stateChanged(SensorPort s, int a, int b) {
+        System.out.println(getLightValue());
+    }
 }
