@@ -1,13 +1,4 @@
 #BlueJ class context
 comment0.params=
-<<<<<<< Updated upstream
 comment0.target=int\ getLightValue()
 numComments=1
-=======
-comment0.target=LightDetect()
-comment0.text=\n\ Default\ constructor\ for\ objects\ of\ class\ LightDetect\n
-comment1.params=y
-comment1.target=int\ sampleMethod(int)
-comment1.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \ \ \ that\ describes\ the\ operation\ of\ the\ method\n\n\ @pre\ \ \ \ \ \ \ \ preconditions\ for\ the\ method\n\ \ \ \ \ \ \ \ \ \ \ \ (what\ the\ method\ assumes\ about\ the\ method's\ parameters\ and\ class's\ state)\n\ @post\ \ \ \ postconditions\ for\ the\ method\n\ \ \ \ \ \ \ \ \ \ \ \ (what\ the\ method\ guarantees\ upon\ completion)\n\ @param\ \ \ \ y\ \ \ \ description\ of\ parameter\ y\n\ @return\ \ \ \ description\ of\ the\ return\ value\n
-numComments=2
->>>>>>> Stashed changes

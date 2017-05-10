@@ -8,10 +8,7 @@ public class ObjectDetect implements FeatureListener {
 	public void featureDetected(Feature feature, FeatureDetector detector) {
 		int range = (int)feature.getRangeReading().getRange();
 		Sound.playTone(1200 - (range * 10), 100);
-<<<<<<< Updated upstream
 		System.out.println("Light:" + LightDetect.getLightValue());
-=======
->>>>>>> Stashed changes
 		System.out.println("Range:" + range);
 	}
 }
