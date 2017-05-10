@@ -17,11 +17,16 @@ public class MotorControl
     }
     public static void turnRight()
     {
+        Motor.B.forward();
     }
     public static void forward()
     {
+        Motor.A.forward();
+        Motor.B.forward();
     }
     public static void backward()
     {
+        Motor.A.backward();
+        Motor.B.backward();
     }
 }
