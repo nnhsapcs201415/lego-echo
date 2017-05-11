@@ -14,10 +14,13 @@ public class MotorControl
     public static void turnLeft()
     {
         Motor.A.forward();
+        Motor.B.backward();
+       
     }
     public static void turnRight()
     {
         Motor.B.forward();
+        Motor.A.backward();
     }
     public static void forward()
     {
@@ -28,5 +31,10 @@ public class MotorControl
     {
         Motor.A.backward();
         Motor.B.backward();
+    }
+    public static void stop()
+    {
+        Motor.A.stop();
+        Motor.B.stop();
     }
 }
