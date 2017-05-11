@@ -21,13 +21,8 @@ objectbench.height=100
 objectbench.width=668
 package.editor.height=400
 package.editor.width=875
-<<<<<<< Updated upstream
 package.editor.x=634
 package.editor.y=241
-=======
-package.editor.x=265
-package.editor.y=167
->>>>>>> Stashed changes
 package.numDependencies=6
 package.numTargets=7
 package.showExtends=true
@@ -35,13 +30,8 @@ package.showUses=true
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-<<<<<<< Updated upstream
 target1.editor.x=513
 target1.editor.y=242
-=======
-target1.editor.x=84
-target1.editor.y=30
->>>>>>> Stashed changes
 target1.height=50
 target1.name=LightDetect
 target1.naviview.expanded=true
