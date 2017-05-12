@@ -75,3 +75,5 @@ Echo/.idea/encodings.xml
 Echo/.idea/Echo.iml
 
 Echo/.idea/azureSettings.xml
+*.ctxt
+*.nxj
