@@ -5,14 +5,13 @@ public class Main
 {
     // instance variables - replace the example below with your own
     public static void main(String[] args) {
-        Sensors.init();
+        
         //MotorControl mc = new MotorControl();
-        ObjectDetect listener = new ObjectDetect();
-        UltrasonicSensor us = Sensors.UC;
-        RangeFeatureDetector fd = new RangeFeatureDetector(us, ObjectDetect.MAX_DETECT, 500);
-        fd.addListener(listener);
+        
+        
+       
         Button.ENTER.waitForPressAndRelease();
-        UltrasoundShi u = new UltrasoundShi(us);
+        UltrasoundShi u = new UltrasoundShi(Sensors.UC);
         u.sendout();
         
     }
