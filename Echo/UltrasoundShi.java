@@ -25,7 +25,8 @@ public class UltrasoundShi
      *
      * 
      * @return  description of the return value
-     */
+     
+       */
     public void sendout()
     {
         boolean isTrue = true;
@@ -36,7 +37,7 @@ public class UltrasoundShi
             {
                 System.out.println(ups.getDistance());
                 MotorControl.turnLeft();
-                
+
             }
             else
             {
@@ -44,9 +45,11 @@ public class UltrasoundShi
             }
         }
         MotorControl.stop();
-        MotorControl.forward();
-        
-    }
+        while (true)
+        {
 
+            MotorControl.forward();
+        }
+    }
 
 }
