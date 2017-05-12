@@ -1,15 +1,8 @@
 #BlueJ class context
-comment0.params=
-comment0.target=UltrasoundShi()
-<<<<<<< HEAD
-comment0.text=\n\ Default\ constructor\ for\ objects\ of\ class\ UltrasoundShi\n
-comment1.params=y
-comment1.target=int\ sampleMethod(int)
-comment1.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \ \ \ that\ describes\ the\ operation\ of\ the\ method\n\n\ @pre\ \ \ \ \ \ \ \ preconditions\ for\ the\ method\n\ \ \ \ \ \ \ \ \ \ \ \ (what\ the\ method\ assumes\ about\ the\ method's\ parameters\ and\ class's\ state)\n\ @post\ \ \ \ postconditions\ for\ the\ method\n\ \ \ \ \ \ \ \ \ \ \ \ (what\ the\ method\ guarantees\ upon\ completion)\n\ @param\ \ \ \ y\ \ \ \ description\ of\ parameter\ y\n\ @return\ \ \ \ description\ of\ the\ return\ value\n
-=======
+comment0.params=ups
+comment0.target=UltrasoundShi(lejos.nxt.UltrasonicSensor)
 comment0.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ UltrasoundShi\r\n
-comment1.params=y
-comment1.target=int\ sampleMethod(int)
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \ \ \ that\ describes\ the\ operation\ of\ the\ method\r\n\r\n\ @pre\ \ \ \ \ \ \ \ preconditions\ for\ the\ method\r\n\ \ \ \ \ \ \ \ \ \ \ \ (what\ the\ method\ assumes\ about\ the\ method's\ parameters\ and\ class's\ state)\r\n\ @post\ \ \ \ postconditions\ for\ the\ method\r\n\ \ \ \ \ \ \ \ \ \ \ \ (what\ the\ method\ guarantees\ upon\ completion)\r\n\ @param\ \ \ \ y\ \ \ \ description\ of\ parameter\ y\r\n\ @return\ \ \ \ description\ of\ the\ return\ value\r\n
->>>>>>> origin/master
+comment1.params=
+comment1.target=void\ sendout()
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \ that\ describes\ the\ operation\ of\ the\ method\r\n\r\n\ \r\n\ @return\ \ description\ of\ the\ return\ value\r\n\ \ \ \ \ \r\n
 numComments=2

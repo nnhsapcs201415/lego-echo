@@ -5,15 +5,15 @@ public class Main
 {
     // instance variables - replace the example below with your own
     public static void main(String[] args) {
-        //MotorControl mc = new MotorControl();
-        ObjectDetect listener = new ObjectDetect();
-        LineStop stopper = new LineStop();
-        stopper.run();
-        UltrasonicSensor us = Sensors.UC;
-        RangeFeatureDetector fd = new RangeFeatureDetector(us, ObjectDetect.MAX_DETECT, 500);
-        fd.addListener(listener);
         
+        //MotorControl mc = new MotorControl();
+        Sensors.init();
+        
+       
         Button.ENTER.waitForPressAndRelease();
-    } 
+        UltrasoundShi u = new UltrasoundShi(Sensors.UC);
+        u.sendout();
+         
+    }
    
 }
