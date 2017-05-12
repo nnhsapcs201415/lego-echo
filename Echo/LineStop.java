@@ -20,8 +20,8 @@ public class LineStop implements SensorPortListener{
     
 
 public void stateChanged(SensorPort aSource, int aOldValue, int aNewValue) {
-
-    if(Sensors.LGHT.readValue() <= 40) {
+    System.out.println("Called");
+    if(Sensors.LGHT.readValue() <= 30) {
         try{
                     PilotProps pp = new PilotProps();
         pp.loadPersistentValues();

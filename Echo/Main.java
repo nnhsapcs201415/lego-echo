@@ -7,7 +7,7 @@ public class Main
     public static void main(String[] args) {
         
         //MotorControl mc = new MotorControl();
-        
+        Sensors.init();
         
        
         Button.ENTER.waitForPressAndRelease();
