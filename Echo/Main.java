@@ -13,7 +13,7 @@ public class Main
         Button.ENTER.waitForPressAndRelease();
         UltrasoundShi u = new UltrasoundShi(Sensors.UC);
         u.sendout();
-        
+         
     }
    
 }
