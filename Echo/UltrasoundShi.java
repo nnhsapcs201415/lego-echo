@@ -45,11 +45,7 @@ public class UltrasoundShi
             }
         }
         MotorControl.stop();
-        while (true)
-        {
-
-            MotorControl.forward();
-        }
+        MotorControl.forward();
     }
 
 }
