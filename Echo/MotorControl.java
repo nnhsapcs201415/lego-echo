@@ -8,6 +8,12 @@ import lejos.nxt.Motor;
  */
 public class MotorControl
 {
+<<<<<<< HEAD
+=======
+    public MotorControl()
+    { 
+    }
+>>>>>>> origin/master
     public static void turnLeft()
     {
         Motor.A.forward();

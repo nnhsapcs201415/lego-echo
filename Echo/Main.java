@@ -10,9 +10,9 @@ public class Main
         Sensors.init();
         
        
-        Button.ENTER.waitForPressAndRelease();
-        UltrasoundShi u = new UltrasoundShi(Sensors.UC);
-        u.sendout();
+        
+        
+        UltrasoundShi.sendout();
          
     }
    
