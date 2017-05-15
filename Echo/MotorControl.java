@@ -8,9 +8,6 @@ import lejos.nxt.Motor;
  */
 public class MotorControl
 {
-    public MotorControl()
-    {
-    }
     public static void turnLeft()
     {
         Motor.A.forward();
@@ -36,5 +33,9 @@ public class MotorControl
     {
         Motor.A.stop();
         Motor.B.stop();
+    }
+    public static void preciseTurn(int degrees)
+    {
+        Motor.A.rotateTo(360);
     }
 }
