@@ -9,7 +9,7 @@ import lejos.nxt.Motor;
 public class MotorControl
 {
     public MotorControl()
-    {
+    { 
     }
     public static void turnLeft()
     {

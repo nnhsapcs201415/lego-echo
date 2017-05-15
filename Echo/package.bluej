@@ -2,14 +2,21 @@
 dependency1.from=Main
 dependency1.to=BtnListener
 dependency1.type=UsesDependency
-<<<<<<< HEAD
-dependency10.from=DiffPilot
-dependency10.to=DiffPilot
-=======
 dependency10.from=Main
 dependency10.to=UltrasoundShi
->>>>>>> origin/master
 dependency10.type=UsesDependency
+dependency11.from=UltrasoundShi
+dependency11.to=MotorControl
+dependency11.type=UsesDependency
+dependency12.from=LineStop
+dependency12.to=MotorControl
+dependency12.type=UsesDependency
+dependency13.from=UltrasoundShi
+dependency13.to=Sensors
+dependency13.type=UsesDependency
+dependency14.from=LineStop
+dependency14.to=UltrasoundShi
+dependency14.type=UsesDependency
 dependency2.from=ObjectDetect
 dependency2.to=Sensors
 dependency2.type=UsesDependency
@@ -35,18 +42,12 @@ dependency9.from=Sensors
 dependency9.to=LineStop
 dependency9.type=UsesDependency
 objectbench.height=100
-objectbench.width=678
-package.editor.height=400
-<<<<<<< HEAD
-package.editor.width=875
-package.editor.x=277
-package.editor.y=167
-=======
-package.editor.width=885
-package.editor.x=266
-package.editor.y=299
->>>>>>> origin/master
-package.numDependencies=10
+objectbench.width=499
+package.editor.height=814
+package.editor.width=706
+package.editor.x=0
+package.editor.y=0
+package.numDependencies=14
 package.numTargets=9
 package.showExtends=true
 package.showUses=true
@@ -64,10 +65,10 @@ target1.typeParameters=
 target1.width=90
 target1.x=420
 target1.y=210
-target2.editor.height=700
-target2.editor.width=900
-target2.editor.x=674
-target2.editor.y=261
+target2.editor.height=1010
+target2.editor.width=840
+target2.editor.x=840
+target2.editor.y=0
 target2.height=50
 target2.name=UltrasoundShi
 target2.naviview.expanded=true
@@ -77,10 +78,10 @@ target2.typeParameters=
 target2.width=100
 target2.x=160
 target2.y=10
-target3.editor.height=700
-target3.editor.width=900
-target3.editor.x=402
-target3.editor.y=289
+target3.editor.height=1008
+target3.editor.width=840
+target3.editor.x=840
+target3.editor.y=2
 target3.height=50
 target3.name=LineStop
 target3.naviview.expanded=true
@@ -92,30 +93,21 @@ target3.x=440
 target3.y=80
 target4.editor.height=700
 target4.editor.width=900
-<<<<<<< HEAD
-target4.editor.x=317
-target4.editor.y=32
-=======
 target4.editor.x=674
 target4.editor.y=261
->>>>>>> origin/master
 target4.height=50
 target4.name=DiffPilot
+target4.naviview.expanded=true
 target4.showInterface=false
 target4.type=AbstractTarget
 target4.typeParameters=
 target4.width=80
 target4.x=460
 target4.y=10
-target5.editor.height=700
+target5.editor.height=1010
 target5.editor.width=900
-<<<<<<< HEAD
-target5.editor.x=674
-target5.editor.y=261
-=======
-target5.editor.x=651
-target5.editor.y=286
->>>>>>> origin/master
+target5.editor.x=609
+target5.editor.y=0
 target5.height=50
 target5.name=MotorControl
 target5.naviview.expanded=true
@@ -127,13 +119,8 @@ target5.x=530
 target5.y=250
 target6.editor.height=700
 target6.editor.width=900
-<<<<<<< HEAD
-target6.editor.x=651
-target6.editor.y=286
-=======
 target6.editor.x=0
 target6.editor.y=0
->>>>>>> origin/master
 target6.height=50
 target6.name=Sensors
 target6.naviview.expanded=true
@@ -145,13 +132,8 @@ target6.x=240
 target6.y=240
 target7.editor.height=700
 target7.editor.width=900
-<<<<<<< HEAD
-target7.editor.x=0
-target7.editor.y=0
-=======
 target7.editor.x=667
 target7.editor.y=187
->>>>>>> origin/master
 target7.height=50
 target7.name=BtnListener
 target7.naviview.expanded=true
@@ -161,30 +143,18 @@ target7.typeParameters=
 target7.width=90
 target7.x=360
 target7.y=10
-target8.editor.height=700
-target8.editor.width=900
-<<<<<<< HEAD
-target8.editor.x=227
-target8.editor.y=96
+target8.editor.height=1010
+target8.editor.width=840
+target8.editor.x=840
+target8.editor.y=0
 target8.height=50
 target8.name=Main
-=======
-target8.editor.x=306
-target8.editor.y=319
-target8.height=50
-target8.name=DifferentialPilot
->>>>>>> origin/master
 target8.naviview.expanded=true
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
-<<<<<<< HEAD
 target8.width=80
 target8.x=70
-=======
-target8.width=110
-target8.x=460
->>>>>>> origin/master
 target8.y=10
 target9.editor.height=700
 target9.editor.width=900

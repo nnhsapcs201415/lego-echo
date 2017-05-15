@@ -1,5 +1,5 @@
 import lejos.nxt.UltrasonicSensor;
-
+import lejos.nxt.Button;
 /**
  * Write a description of class UltrasoundShi here.
  * 
@@ -10,14 +10,8 @@ public class UltrasoundShi
 {
     /** description of instance variable x (add comment for each instance variable) */
     private int x;
-    UltrasonicSensor ups;
-    /**
-     * Default constructor for objects of class UltrasoundShi
-     */
-    public UltrasoundShi(UltrasonicSensor ups)
-    {
-        this.ups = ups;
-    }
+  
+    
 
     /**
      * An example of a method - replace this comment with your own
@@ -25,17 +19,18 @@ public class UltrasoundShi
      *
      * 
      * @return  description of the return value
-     
-       */
-    public void sendout()
+
+     */
+    public static void sendout()
     {
+      
         boolean isTrue = true;
-        ups.continuous();
+        Sensors.UC.continuous();
         while(isTrue)
         {
-            if (ups.getDistance() > 10)
+            if (Sensors.UC.getDistance() > 10)
             {
-                System.out.println(ups.getDistance());
+                
                 MotorControl.turnLeft();
 
             }
@@ -46,6 +41,7 @@ public class UltrasoundShi
         }
         MotorControl.stop();
         MotorControl.forward();
+        Button.ENTER.waitForPressAndRelease();
     }
 
 }
