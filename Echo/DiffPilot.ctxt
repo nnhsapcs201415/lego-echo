@@ -1,6 +1,4 @@
 #BlueJ class context
-comment0.params=
-comment0.target=void\ rotationStarted()
-comment1.params=
-comment1.target=void\ rotaionStopped()
-numComments=2
+comment0.params=diamA\ diamB\ trackWidth\ mot1\ mot2
+comment0.target=DiffPilot(double,\ double,\ double,\ lejos.robotics.RegulatedMotor,\ lejos.robotics.RegulatedMotor)
+numComments=1
