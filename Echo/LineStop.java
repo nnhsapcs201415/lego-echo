@@ -17,16 +17,14 @@ import lejos.nxt.SensorPortListener;
  * @author Aidan Handa
  */
 public class LineStop implements SensorPortListener{
-    public static int count = 0;
+
 
     public void stateChanged(SensorPort aSource, int aOldValue, int aNewValue) {
-        System.out.println(Sensors.LGHT.readValue() + " " + count);
-        count ++;
+
         if(Sensors.LGHT.readValue() <= 35) {
             try{
 
                 MotorControl.stop();
-                System.out.println("stopurself");
                 PilotProps pp = new PilotProps();
                 pp.loadPersistentValues();
                 float wheelDiameter = Float.parseFloat(pp.getProperty(PilotProps.KEY_WHEELDIAMETER, "5.6"));
