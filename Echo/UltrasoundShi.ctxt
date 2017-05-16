@@ -1,5 +1,12 @@
 #BlueJ class context
 comment0.params=
 comment0.target=void\ sendout()
+<<<<<<< HEAD
 comment0.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \ that\ describes\ the\ operation\ of\ the\ method\n\n\ \n\ @return\ \ description\ of\ the\ return\ value\n\n
 numComments=1
+=======
+comment0.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \ that\ describes\ the\ operation\ of\ the\ method\r\n\r\n\ \r\n\ @return\ \ description\ of\ the\ return\ value\r\n\r\n
+comment1.params=
+comment1.target=void\ comeback()
+numComments=2
+>>>>>>> origin/master

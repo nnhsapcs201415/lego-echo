@@ -11,9 +11,10 @@ public class Main
         
        
         
+        UltrasoundShi.comeback();
+        try  {Thread.sleep(200);}
+        catch (Exception e ){}        UltrasoundShi.sendout();
         
-        UltrasoundShi.sendout();
-         
     }
    
 }
