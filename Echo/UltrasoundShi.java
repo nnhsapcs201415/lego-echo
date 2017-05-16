@@ -28,7 +28,7 @@ public class UltrasoundShi
         Sensors.UC.continuous();
         while(isTrue)
         {
-            if (Sensors.UC.getDistance() > 10)
+            if (Sensors.UC.getDistance() > 30)
             {
                 
                 MotorControl.turnLeft();
@@ -42,6 +42,26 @@ public class UltrasoundShi
         MotorControl.stop();
         MotorControl.forward();
         Button.ENTER.waitForPressAndRelease();
+    }
+    public static void comeback()
+    {
+        boolean isTrue = true;
+        Sensors.UC.continuous();
+        while(isTrue)
+        {
+            if (Sensors.UC.getDistance() < 10)
+            {
+                System.out.println(Sensors.UC.getDistance());
+                MotorControl.turnLeft();
+
+            }
+            else
+            {
+                isTrue = false;
+            }
+        }
+        MotorControl.stop();
+        MotorControl.forward();
     }
 
 }
