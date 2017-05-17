@@ -8,7 +8,6 @@ public class TouchStop implements SensorPortListener{
         {
             MotorControl.stop();
             
-            
         }
         
     }
