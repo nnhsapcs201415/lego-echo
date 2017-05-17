@@ -19,9 +19,7 @@ public class Sensors
    
    public static void init() {
         SensorPortListener s = new LineStop();
-        SensorPortListener t = new TouchStop();
-        
-        SensorPort.S1.addSensorPortListener(t);
         SensorPort.S3.addSensorPortListener(s);
+        
    }
 }
