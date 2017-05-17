@@ -61,7 +61,11 @@ public class UltrasoundShi
             }
         }
         MotorControl.stop();
-        MotorControl.forward();
+        if (Sensors.UC.getDistance() < 10)
+        {
+            MotorControl.forward();
+        }
+        MotorControl.stop();
     }
 
 }
