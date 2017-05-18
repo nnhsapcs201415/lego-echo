@@ -37,6 +37,6 @@ public class MotorControl
     }
     public static void preciseTurn(int degrees)
     {
-        Motor.A.rotateTo(360);
+        Motor.A.rotateTo(degrees);
     }
 }
