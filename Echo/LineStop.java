@@ -23,7 +23,8 @@ public class LineStop implements SensorPortListener{
 
         if(Sensors.LGHT.readValue() <= 35) {
             try{
-
+                System.out.println("Called");
+                UltrasoundShi.doCont = false;
                 MotorControl.stop();
                 PilotProps pp = new PilotProps();
                 pp.loadPersistentValues();
