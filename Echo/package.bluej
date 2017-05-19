@@ -62,13 +62,27 @@ dependency8.type=UsesDependency
 dependency9.from=Sensors
 dependency9.to=LineStop
 dependency9.type=UsesDependency
+<<<<<<< HEAD
+objectbench.height=76
+objectbench.width=509
+package.editor.height=568
+package.editor.width=706
+package.editor.x=0
+package.editor.y=23
+package.numDependencies=18
+=======
 objectbench.height=100
 objectbench.width=804
 package.editor.height=814
 package.editor.width=1011
 package.editor.x=0
 package.editor.y=0
+<<<<<<< HEAD
 package.numDependencies=21
+=======
+package.numDependencies=19
+>>>>>>> origin/master
+>>>>>>> origin/master
 package.numTargets=11
 package.showExtends=true
 package.showUses=true
@@ -135,7 +149,7 @@ target3.x=180
 target3.y=70
 target4.editor.height=1010
 target4.editor.width=840
-target4.editor.x=0
+target4.editor.x=840
 target4.editor.y=0
 target4.height=50
 target4.name=UltrasoundShi
@@ -148,8 +162,13 @@ target4.x=160
 target4.y=10
 target5.editor.height=1010
 target5.editor.width=840
+<<<<<<< HEAD
 target5.editor.x=668
 target5.editor.y=263
+=======
+target5.editor.x=0
+target5.editor.y=0
+>>>>>>> origin/master
 target5.height=50
 target5.name=LineStop
 target5.naviview.expanded=true
