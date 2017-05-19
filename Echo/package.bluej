@@ -56,23 +56,13 @@ dependency8.type=UsesDependency
 dependency9.from=Sensors
 dependency9.to=LineStop
 dependency9.type=UsesDependency
-<<<<<<< HEAD
 objectbench.height=76
-objectbench.width=509
-package.editor.height=568
-package.editor.width=706
+objectbench.width=804
+package.editor.height=565
+package.editor.width=1001
 package.editor.x=0
 package.editor.y=23
-package.numDependencies=18
-=======
-objectbench.height=100
-objectbench.width=804
-package.editor.height=814
-package.editor.width=706
-package.editor.x=0
-package.editor.y=0
 package.numDependencies=19
->>>>>>> origin/master
 package.numTargets=11
 package.showExtends=true
 package.showUses=true
@@ -163,7 +153,7 @@ target5.typeParameters=
 target5.width=80
 target5.x=270
 target5.y=10
-target6.editor.height=712
+target6.editor.height=707
 target6.editor.width=900
 target6.editor.x=380
 target6.editor.y=23
