@@ -9,9 +9,10 @@ import lejos.nxt.Button;
 public class UltrasoundShi
 {
     /** description of instance variable x (add comment for each instance variable) */
-    private int x;
-  
+    public static boolean doCont = true;
     
+    
+
 
     /**
      * An example of a method - replace this comment with your own
@@ -23,14 +24,14 @@ public class UltrasoundShi
      */
     public static void sendout()
     {
-      
+        MotorControl.stop();
         boolean isTrue = true;
         Sensors.UC.continuous();
         while(isTrue)
         {
             if (Sensors.UC.getDistance() > 30)
             {
-                
+
                 MotorControl.turnLeft();
 
             }
@@ -41,19 +42,20 @@ public class UltrasoundShi
         }
         MotorControl.stop();
         MotorControl.forward();
-        Button.ENTER.waitForPressAndRelease();
     }
+
     public static void comeback()
     {
+        
         boolean isTrue = true;
         Sensors.UC.continuous();
         while(isTrue)
         {
-            if (Sensors.UC.getDistance() < 10)
+            if (Sensors.UC.getDistance() < 20)
             {
                 System.out.println(Sensors.UC.getDistance());
                 MotorControl.turnLeft();
-
+                
             }
             else
             {
@@ -61,11 +63,7 @@ public class UltrasoundShi
             }
         }
         MotorControl.stop();
-        if (Sensors.UC.getDistance() < 10)
-        {
-            MotorControl.forward();
-        }
-        MotorControl.stop();
+        MotorControl.forward();
     }
 
 }

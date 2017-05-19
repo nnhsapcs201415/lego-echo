@@ -1,6 +1,7 @@
 import lejos.nxt.Motor;
 import lejos.robotics.navigation.DifferentialPilot;
 import lejos.robotics.RegulatedMotorListener;
+import lejos.robotics.RegulatedMotor;
 
 /**
  * Write a description of class DifferentialPilot here.
@@ -8,15 +9,11 @@ import lejos.robotics.RegulatedMotorListener;
  * @author alnordman
  * @version 5/12/2017
  */
-public abstract class DiffPilot implements RegulatedMotorListener
+public class DiffPilot extends DifferentialPilot
 {
-    public static void rotationStarted()
+    public DiffPilot(double diamA, double diamB, RegulatedMotor mot1, RegulatedMotor mot2)
     {
+        
     }
     
-    public static void rotaionStopped()
-    {
-    }
-    
-
 }

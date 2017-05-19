@@ -12,8 +12,8 @@ import lejos.nxt.SensorPortListener;
  */
 public class Sensors
 {
-   public static TouchSensor TCH = new TouchSensor(SensorPort.S1);
-   public static SoundSensor SOUND = new SoundSensor(SensorPort.S2);
+   public static TouchSensor TCHL = new TouchSensor(SensorPort.S1);
+   public static TouchSensor TCHR = new TouchSensor(SensorPort.S2);
    public static LightSensor LGHT = new LightSensor(SensorPort.S3);
    public static UltrasonicSensor UC = new UltrasonicSensor(SensorPort.S4);
    
@@ -21,8 +21,10 @@ public class Sensors
         SensorPortListener s = new LineStop();
         SensorPortListener t = new TouchStop();
         
-        SensorPort.S1.addSensorPortListener(t);
         SensorPort.S3.addSensorPortListener(s);
+        SensorPort.S2.addSensorPortListener(t);
+        SensorPort.S1.addSensorPortListener(t);
+
         
    }
 }
