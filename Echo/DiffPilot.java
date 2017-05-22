@@ -13,7 +13,10 @@ public class DiffPilot extends DifferentialPilot
 {
     public DiffPilot(double diamA, double diamB, RegulatedMotor mot1, RegulatedMotor mot2)
     {
-        
+        super(diamA, diamB, mot1,mot2);
     }
     
+    
 }
+
+// (5.5, 5.5, Motor.A, Motor.B)

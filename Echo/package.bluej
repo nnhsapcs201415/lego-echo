@@ -35,12 +35,6 @@ dependency19.type=UsesDependency
 dependency2.from=ObjectDetect
 dependency2.to=Sensors
 dependency2.type=UsesDependency
-dependency20.from=TouchStop
-dependency20.to=UltrasoundShi
-dependency20.type=UsesDependency
-dependency21.from=LineStop
-dependency21.to=TouchStop
-dependency21.type=UsesDependency
 dependency3.from=Main
 dependency3.to=ObjectDetect
 dependency3.type=UsesDependency
@@ -62,27 +56,13 @@ dependency8.type=UsesDependency
 dependency9.from=Sensors
 dependency9.to=LineStop
 dependency9.type=UsesDependency
-<<<<<<< HEAD
 objectbench.height=76
-objectbench.width=509
-package.editor.height=568
-package.editor.width=706
-package.editor.x=0
-package.editor.y=23
-package.numDependencies=18
-=======
-objectbench.height=100
-objectbench.width=804
-package.editor.height=814
+objectbench.width=814
+package.editor.height=565
 package.editor.width=1011
 package.editor.x=0
-package.editor.y=0
-<<<<<<< HEAD
-package.numDependencies=21
-=======
+package.editor.y=23
 package.numDependencies=19
->>>>>>> origin/master
->>>>>>> origin/master
 package.numTargets=11
 package.showExtends=true
 package.showUses=true
@@ -162,13 +142,8 @@ target4.x=160
 target4.y=10
 target5.editor.height=1010
 target5.editor.width=840
-<<<<<<< HEAD
-target5.editor.x=668
-target5.editor.y=263
-=======
 target5.editor.x=0
 target5.editor.y=0
->>>>>>> origin/master
 target5.height=50
 target5.name=LineStop
 target5.naviview.expanded=true
@@ -178,7 +153,7 @@ target5.typeParameters=
 target5.width=80
 target5.x=270
 target5.y=10
-target6.editor.height=712
+target6.editor.height=707
 target6.editor.width=900
 target6.editor.x=380
 target6.editor.y=23
@@ -189,8 +164,8 @@ target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
 target6.width=80
-target6.x=460
-target6.y=10
+target6.x=50
+target6.y=300
 target7.editor.height=700
 target7.editor.width=900
 target7.editor.x=0
