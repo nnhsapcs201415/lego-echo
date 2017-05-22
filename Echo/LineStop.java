@@ -36,7 +36,9 @@ public class LineStop implements SensorPortListener{
                 final RotateMoveController pilot = new DifferentialPilot(wheelDiameter, trackWidth, leftMotor, rightMotor, reverse);
                 final LightSensor light = Sensors.LGHT;
                 pilot.setRotateSpeed(180); 
+                pilot.travel(-5);
                 pilot.rotate(180);
+                
                 TouchStop.activate = true;
                 UltrasoundShi.sendout();
             } catch (Exception PleaseNeverDoThisAndFixIt) {} //akh

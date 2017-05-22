@@ -8,7 +8,11 @@ import lejos.nxt.Motor;
  */
 public class MotorControl
 {
+    public static void init() {
 
+        Motor.A.setSpeed(900);
+        Motor.B.setSpeed(900);
+    }
     public static void turnLeft()
     {
         Motor.A.forward();

@@ -6,7 +6,7 @@ public class TouchStop implements SensorPortListener{
     {
         if (activate && (Sensors.TCHL.isPressed() || Sensors.TCHR.isPressed()))
         {
-            UltrasoundShi.sendout();
+            UltrasoundShi.comeback();
             
         }
         

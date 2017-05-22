@@ -22,10 +22,8 @@ public class Sensors
         SensorPortListener t = new TouchStop();
         
         SensorPort.S3.addSensorPortListener(s);
-<<<<<<< HEAD
+
         SensorPort.S2.addSensorPortListener(t);
-=======
->>>>>>> origin/master
         SensorPort.S1.addSensorPortListener(t);
 
         

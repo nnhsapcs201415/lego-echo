@@ -1,14 +1,16 @@
 #BlueJ class context
 comment0.params=
-comment0.target=void\ turnLeft()
+comment0.target=void\ init()
 comment1.params=
-comment1.target=void\ turnRight()
+comment1.target=void\ turnLeft()
 comment2.params=
-comment2.target=void\ forward()
+comment2.target=void\ turnRight()
 comment3.params=
-comment3.target=void\ backward()
+comment3.target=void\ forward()
 comment4.params=
-comment4.target=void\ stop()
-comment5.params=degrees
-comment5.target=void\ preciseTurn(int)
-numComments=6
+comment4.target=void\ backward()
+comment5.params=
+comment5.target=void\ stop()
+comment6.params=degrees
+comment6.target=void\ preciseTurn(int)
+numComments=7
