@@ -37,12 +37,11 @@ public class UltrasoundShi
             }
             else
             {
-               ;
                 isTrue = false;
             }
         }
         MotorControl.stop();
-       
+        MotorControl.PILOT.rotate(8);
         MotorControl.forward();
     }
 
