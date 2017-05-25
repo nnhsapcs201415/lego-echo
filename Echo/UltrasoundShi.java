@@ -43,7 +43,7 @@ public class UltrasoundShi
             }
         }
         MotorControl.stop();
-       
+        MotorControl.turnRight();
         MotorControl.forward();
     }
 
