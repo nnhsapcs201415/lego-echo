@@ -11,4 +11,6 @@ comment4.params=
 comment4.target=void\ backward()
 comment5.params=
 comment5.target=void\ stop()
-numComments=6
+comment6.params=speed
+comment6.target=void\ setSpeed(int)
+numComments=7

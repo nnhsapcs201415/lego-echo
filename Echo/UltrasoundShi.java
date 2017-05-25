@@ -22,16 +22,17 @@ public class UltrasoundShi
      * @return  description of the return value
 
      */
+    public static boolean go = true;
     public static void sendout()
     {
 
         MotorControl.stop();
-        boolean isTrue = true;
         Sensors.UC.continuous();
-        while(isTrue)
+        while(go)
         {
             if (Sensors.UC.getDistance() > 45)
             {
+                
 
                 MotorControl.turnLeft();
                 
@@ -39,28 +40,28 @@ public class UltrasoundShi
             }
             else
             {
-                isTrue = false;
+                 MotorControl.stop();
+                 go = false;
             }
         }
         MotorControl.stop();
-        MotorControl.turnRight();
-        MotorControl.forward();
     }
 
     public static void comeback()
     {
+        MotorControl.setSpeed(300);
         boolean isTrue = true;
         Sensors.UC.continuous();
         while(isTrue)
         {
             if (Sensors.UC.getDistance() < 30)
             {
-                System.out.println(Sensors.UC.getDistance());
-                MotorControl.turnLeft();
+                MotorControl.PILOT.rotate(10);
                 
             }
             else
             {
+                MotorControl.stop();
                 isTrue = false;
             }
         }

@@ -61,7 +61,11 @@ public class MotorControl
         Motor.A.stop();
         Motor.B.stop();
     }
-     
+    public static void setSpeed(int speed)
+    {
+        Motor.A.setSpeed(300);
+        Motor.B.setSpeed(300);
+    }
     
  
     

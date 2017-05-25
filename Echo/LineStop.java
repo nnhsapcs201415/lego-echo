@@ -23,13 +23,15 @@ public class LineStop implements SensorPortListener{
 
         if(Sensors.LGHT.readValue() <= 35) {
                 
+                UltrasoundShi.go = false;
                 MotorControl.PILOT.setRotateSpeed(180); 
                 MotorControl.PILOT.travel(-5);
                 MotorControl.PILOT.rotate(180);
                 
                 TouchStop.activate = true;
+                UltrasoundShi.go = true;
                 UltrasoundShi.sendout();
-
+                
         }
     }
 }
