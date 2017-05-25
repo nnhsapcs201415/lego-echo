@@ -11,6 +11,4 @@ comment4.params=
 comment4.target=void\ backward()
 comment5.params=
 comment5.target=void\ stop()
-comment6.params=degrees
-comment6.target=void\ preciseTurn(int)
-numComments=7
+numComments=6

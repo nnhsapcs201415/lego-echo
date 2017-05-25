@@ -22,9 +22,6 @@ public class MotorControl
 {
     public static RotateMoveController PILOT;
     public static void init() {
-
-        Motor.A.setSpeed(900);
-        Motor.B.setSpeed(900);
         try {
         PilotProps pp = new PilotProps();
                 pp.loadPersistentValues();
@@ -64,8 +61,8 @@ public class MotorControl
         Motor.A.stop();
         Motor.B.stop();
     }
-    public static void preciseTurn(int degrees)
-    {
-        Motor.A.rotateTo(degrees);
-    }
+     
+    
+ 
+    
 }

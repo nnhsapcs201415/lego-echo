@@ -24,6 +24,7 @@ public class UltrasoundShi
      */
     public static void sendout()
     {
+
         MotorControl.stop();
         boolean isTrue = true;
         Sensors.UC.continuous();
@@ -33,6 +34,7 @@ public class UltrasoundShi
             {
 
                 MotorControl.turnLeft();
+                
 
             }
             else
@@ -41,13 +43,12 @@ public class UltrasoundShi
             }
         }
         MotorControl.stop();
-        MotorControl.PILOT.rotate(8);
+       
         MotorControl.forward();
     }
 
     public static void comeback()
     {
-        
         boolean isTrue = true;
         Sensors.UC.continuous();
         while(isTrue)
@@ -65,6 +66,7 @@ public class UltrasoundShi
         }
         MotorControl.stop();
         MotorControl.forward();
+
     }
 
 }
